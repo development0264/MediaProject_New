@@ -44,7 +44,7 @@ export class NotificationComponent implements AfterViewInit {
     isTotalReached = false;
     totalItems = 0;
     search = '';
-    private url = 'http://192.168.0.140:3000';
+    private url = 'http://localhost:3000';
     private socket;
 
     @ViewChild(MatPaginator, { static: false }) paginator: MatPaginator;
